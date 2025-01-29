@@ -1,13 +1,13 @@
 package fr.efrei.rag.repository.dto;
 
-public class DocumentDTO {
+public class DocumentDto {
     private Long id;
     private String title;
 
-    public DocumentDTO() {
+    public DocumentDto() {
     }
 
-    public DocumentDTO(Long id, String title) {
+    public DocumentDto(Long id, String title) {
         this.id = id;
         this.title = title;
     }
